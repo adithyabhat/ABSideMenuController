@@ -36,7 +36,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5090.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gvQ-8N-T4Y"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-6s-wallpapers-e1447909750328.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gvQ-8N-T4Y"/>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -53,6 +53,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_5090.jpg" width="750" height="1334"/>
+        <image name="iphone-6s-wallpapers-e1447909750328.jpg" width="600" height="1067"/>
     </resources>
 </document>

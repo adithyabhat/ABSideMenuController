@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  SideMenu
 //
-//  Created by Bhat, Adithya H (external - Project) on 9/18/16.
+//  Created by Bhat, Adithya H on 9/18/16.
 //  Copyright © 2016 AB. All rights reserved.
 //
 

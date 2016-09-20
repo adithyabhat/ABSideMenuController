@@ -2,7 +2,7 @@
 //  ABSideMenuViewController.swift
 //  SideMenu
 //
-//  Created by Bhat, Adithya H (external - Project) on 9/18/16.
+//  Created by Bhat, Adithya H on 9/18/16.
 //  Copyright © 2016 AB. All rights reserved.
 //
 
@@ -47,6 +47,9 @@ class ABSideMenuViewController: UIViewController {
         contentViewController?.view.frame = self.view.frame
     }
     
+    /**
+     Toggles the content view between its position at the center and the state where it reveals the side menu view.
+     */
     func toggleCenterContentView() {
         var transform:CATransform3D
         if self.toggleInAction == false , let centerContentView = self.contentViewController?.view {
@@ -90,6 +93,7 @@ class ABSideMenuViewController: UIViewController {
     
     //MARK: Private methods
     
+    //Changing the AnchorPoint changes the position of the layer. This method preserves the position of the layer.
     private func setAnchorPoint(_ anchorPoint: CGPoint, forView view: UIView) {
         var newPoint = CGPoint(x: view.bounds.size.width * anchorPoint.x, y: view.bounds.size.height * anchorPoint.y)
         var oldPoint = CGPoint(x: view.bounds.size.width * view.layer.anchorPoint.x, y: view.bounds.size.height * view.layer.anchorPoint.y)
